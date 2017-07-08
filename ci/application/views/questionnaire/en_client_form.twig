@@ -1,0 +1,330 @@
+{% extends "questionnaire/form_client.php" %}
+
+{% block Title %}
+	AIWIFI Questionnaire
+{% endblock %}
+
+{% block A %}
+	I. Please help us identify yourself
+{% endblock %}
+
+{% block A1 %}
+	1.Your age:
+{% endblock %}
+
+{% block A11 %}
+	Under 15 years old
+{% endblock %}
+
+{% block A12 %}
+	From 15 to 25 years old
+{% endblock %}
+
+{% block A13 %}
+	From 26 to 35 years old
+{% endblock %}
+
+{% block A14 %}
+	From 36 to 45 years old
+{% endblock %}
+
+{% block A15 %}
+	From 46 to 55 years old
+{% endblock %}
+
+{% block A16 %}
+	Over 55 years old
+{% endblock %}
+
+{% block A2 %}
+	2.Your sex:
+{% endblock %}
+
+{% block A21 %}
+	Male
+{% endblock %}
+
+{% block A22 %}
+	Female
+{% endblock %}
+
+{% block A3 %}
+	3.Which of the sectors do you involve in:
+{% endblock %}
+
+{% block A3all %}
+	<div style="display: inline-block;">
+	&nbsp;<input type="radio" id="A31" name="A3" value="8" required>
+	<label for="A31">Hotel industry & exhibition</label>&nbsp;<br/>
+	&nbsp;<input type="radio" id="A32" name="A3" value="2">
+	<label for="A32">Tour & Shopping Guiding</label>&nbsp;<br/>
+	&nbsp;<input type="radio" id="A33" name="A3" value="3">
+	<label for="A33">Hairdressing & beauty</label></div>
+	<div style="display: inline-block;">
+	&nbsp;<input type="radio" id="A34" name="A3" value="5">
+	<label for="A34">Government office</label>&nbsp;<br/>
+	&nbsp;<input type="radio" id="A35" name="A3" value="1">
+	<label for="A35">Health & Medicine</label>&nbsp;<br/>
+	&nbsp;<input type="radio" id="A36" name="A3" value="4">
+	<label for="A36">Malls & Stores</label></div>
+	<div style="display: inline-block;">
+	&nbsp;<input type="radio" id="A37" name="A3" value="7">
+	<label for="A37">Restaurants</label>&nbsp;<br/>
+	&nbsp;<input type="radio" id="A38" name="A3" value="6">
+	<label for="A38">Student</label>&nbsp;<br/>
+	&nbsp;<input type="radio" id="A39" name="A3" value="9">
+	<label for="A39">Others</label>
+	</div>
+{% endblock %}
+
+{% block A31 %}
+	Health & Medicine
+{% endblock %}
+
+{% block A32 %}
+	Tour & Shopping Guiding
+{% endblock %}
+
+{% block A33 %}
+	Hairdressing & beauty
+{% endblock %}
+
+{% block A34 %}
+	Malls & Stores
+{% endblock %}
+
+{% block A35 %}
+	Government office
+{% endblock %}
+
+{% block A36 %}
+	Student
+{% endblock %}
+
+{% block A37 %}
+	Restaurants
+{% endblock %}
+
+{% block A38 %}
+	Hotel industry & exhibition
+{% endblock %}
+
+{% block A39 %}
+	Others
+{% endblock %}
+
+{% block B %}
+	II. Please tell us your opinions about public wi-fi
+{% endblock %}
+
+{% block B1 %}
+	1.Is there wi-fi service in your store/restaurant/hotel...?
+{% endblock %}
+
+{% block B11 %}
+	Yes
+{% endblock %}
+
+{% block B12 %}
+	No
+{% endblock %}
+
+{% block B2 %}
+	2.If yes, which of the following ways would you choose to let your customers connect wi-fi?
+{% endblock %}
+
+{% block B21 %}
+	Provide wi-fi password to your customers
+{% endblock %}
+
+{% block B22 %}
+	Let your customers use the login platform to connect wi-fi
+{% endblock %}
+
+{% block B23 %}
+	Other(specify please)
+{% endblock %}
+
+{% block B3 %}
+	3.Do you worry about your information security when using public wi-fi?
+{% endblock %}
+
+{% block B31 %}
+	I don't worry at all
+{% endblock %}
+
+{% block B32 %}
+	I don't worry that much
+{% endblock %}
+
+{% block B33 %}
+	I worry about that
+{% endblock %}
+
+{% block B34 %}
+	I worry a little
+{% endblock %}
+
+{% block B35 %}
+	I do worry a lot
+{% endblock %}
+
+{% block B4 %}
+	4.Have you ever encountered any data attacks when providing public wi-fi to your customers?
+{% endblock %}
+
+{% block B41 %}
+	Affirmative
+{% endblock %}
+
+{% block B42 %}
+	Negative
+{% endblock %}
+
+{% block B43 %}
+	I have no idea
+{% endblock %}
+
+{% block C %}
+	III. Please help us improve the function of our product and service
+{% endblock %}
+
+{% block C1 %}
+	1.Do you want to take control of wi-fi users through the login platform?
+{% endblock %}
+
+{% block C11 %}
+	Yes
+{% endblock %}
+
+{% block C12 %}
+	No
+{% endblock %}
+
+{% block C13 %}
+	I don't care
+{% endblock %}
+
+{% block C2 %}
+	2.Do you want to develop your own value-added services?
+{% endblock %}
+
+{% block C21 %}
+	Yes
+{% endblock %}
+
+{% block C22 %}
+	No
+{% endblock %}
+
+{% block C23 %}
+	I don't care
+{% endblock %}
+
+{% block C3 %}
+	3.Do you want to publish your ads on this platform?
+{% endblock %}
+
+{% block C31 %}
+	Yes
+{% endblock %}
+
+{% block C32 %}
+	No
+{% endblock %}
+
+{% block C33 %}
+	I don't care
+{% endblock %}
+
+{% block C4 %}
+	4.Do you want to send ads recommendations to the users who have used your sharing wi-fi?
+{% endblock %}
+
+{% block C41 %}
+	Yes
+{% endblock %}
+
+{% block C42 %}
+	No
+{% endblock %}
+
+{% block C43 %}
+	I don't care
+{% endblock %}
+
+{% block C5 %}
+	5.Will you be interested in collabrating with other businesses who also use this plaform?
+{% endblock %}
+
+{% block C51 %}
+	Yes, I would like to
+{% endblock %}
+
+{% block C52 %}
+	No, I don't want to
+{% endblock %}
+
+{% block C53 %}
+	I don't care
+{% endblock %}
+
+{% block C6 %}
+	6.Are you willing to open advertising rights to your partner businesses?
+{% endblock %}
+
+{% block C61 %}
+	Yes, I would like to
+{% endblock %}
+
+{% block C62 %}
+	No, I don't want to
+{% endblock %}
+
+{% block C63 %}
+	I don't care
+{% endblock %}
+
+{% block C7 %}
+	7.Voulez-vous fournir le service discount aux clients via une telle plateforme Internet?
+{% endblock %}
+
+{% block C71 %}
+	Yes, I would like to
+{% endblock %}
+
+{% block C72 %}
+	No, I don't want to
+{% endblock %}
+
+{% block C73 %}
+	I don't care
+{% endblock %}
+
+{% block D %}
+	IV. Please give us some of your suggestions and expectations about this network sharing platform (Optional)
+{% endblock %}
+
+{% block E %}
+	V. Please provide your personal information (Optional)
+{% endblock %}
+
+{% block E1 %}
+	Your name:
+{% endblock %}
+
+{% block E2 %}
+	Your email address:
+{% endblock %}
+
+{% block E3 %}
+	Your telephone number:
+{% endblock %}
+
+{% block E4 %}
+	Your home address:
+{% endblock %}
+
+{% block F %}
+Submit
+{% endblock %}

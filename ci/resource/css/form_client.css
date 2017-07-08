@@ -1,0 +1,65 @@
+body {
+	background-image: url(../images/form.jpg);
+	background-size: 100%;			
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	font: normal 100% sans-serif;
+	font-family: "Arial","YouYuan","黑体","宋体",sans-serif;
+}
+.a {
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.7);
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.7);
+	border: 1px solid;
+	border-radius: 25px;
+	padding: 10px 20px;
+}
+h2 {
+	color: #FFFFFF;
+	font-size: 1.25em;
+	text-shadow: 5px 5px 3px rgba(0,0,0,0.8);
+}
+h1 {
+	color: #FFFFE0;
+	text-shadow: 5px 5px 3px rgba(0,0,0,0.8);
+}
+textarea {
+	width: 100%;
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.7);
+	border: 2px solid;
+	border-radius: 25px;
+}
+.body_size {
+	font-size: 1.2em;
+	width: 60%;
+	margin: 0px auto;
+}
+label:hover {
+	color: #00FFFF;
+	box-shadow: 15px 15px 13px rgba(0,0,0,0.5);
+	border: 1px solid;
+	border-radius: 10px;
+}
+#submit
+{
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 25%;
+	color: white;
+	padding: 20px 32px;
+	line-height: 80px;
+	text-align: center;
+	display: inline-block;
+	font-size: 2em;
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+	text-shadow: 5px 5px 3px rgba(0,0,0,0.8);
+	display: inline-block;
+	margin-left: 42%;
+	/*width: 200px;*/
+}
+#submit:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+[type=radio]
+{
+	transform: scale(2);
+}

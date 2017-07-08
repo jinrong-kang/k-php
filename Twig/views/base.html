@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+            <link rel="stylesheet" href="style.css" />
+            <title>{% block title %}{% endblock %} - My Webpage</title>
+        {% endblock %}
+    </head>
+    <body>
+        <div id="content">{% block content %}{% endblock %}</div>
+        <div id="footer">
+            {% block footer %}
+            <a class="type" href="http://localhost/CodeIgniter-3.1.4/index.php/welcome/index_en" " >英语</a>
+                &copy; Copyright 2017 by <a href="http://localhost">you</a>.
+            {% endblock %}
+        </div>
+    </body>
+</html>

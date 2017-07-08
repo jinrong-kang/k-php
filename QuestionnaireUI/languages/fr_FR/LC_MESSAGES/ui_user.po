@@ -1,0 +1,301 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-23 14:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ui_user.php:11
+msgid "AIWIFI 调查问卷"
+msgstr "Enquête de AIWIFI"
+
+#: ui_user.php:13
+msgid "一、请帮助我们甄别您的所属群体"
+msgstr "I. SVP aidez-nous à vous identifier"
+
+#: ui_user.php:16
+msgid "您的年龄："
+msgstr "Votre âge:"
+
+#: ui_user.php:17
+msgid "15岁以下"
+msgstr "moins de 15 ans"
+
+#: ui_user.php:18
+msgid "15到25岁"
+msgstr "15 ans à 25 ans"
+
+#: ui_user.php:19
+msgid "26到35岁"
+msgstr "26 ans à 35 ans"
+
+#: ui_user.php:20
+msgid "36到45岁"
+msgstr "36 ans à 45 ans"
+
+#: ui_user.php:21
+msgid "46到55岁"
+msgstr "46 ans à 55 ans"
+
+#: ui_user.php:22
+msgid "55岁以上"
+msgstr "Plus de 55 ans"
+
+#: ui_user.php:25
+msgid "您的性别："
+msgstr "Votre sexe"
+
+#: ui_user.php:26
+msgid "男"
+msgstr "Masculin"
+
+#: ui_user.php:27
+msgid "女"
+msgstr "Féminin"
+
+#: ui_user.php:30
+msgid "您的身份是："
+msgstr "Quelle est votre catégorie socio-professionnelle:"
+
+#: ui_user.php:31
+msgid "在职员工"
+msgstr "Employé"
+
+#: ui_user.php:32
+msgid "学生"
+msgstr "Étudiant, lycéen"
+
+#: ui_user.php:33
+msgid "其它"
+msgstr "Autres"
+
+#: ui_user.php:37
+msgid "二、请告诉我们您对公共网络的看法"
+msgstr "II. Ce que vous pensez du réseau public (wifi public)"
+
+#: ui_user.php:40
+msgid "您是否有使用公共网络的需求？"
+msgstr "Avez-vous besoin d’utiliser le réseau public (wifi public)?"
+
+#: ui_user.php:41
+msgid "有"
+msgstr "Oui"
+
+#: ui_user.php:42
+msgid "没有"
+msgstr "Non"
+
+#: ui_user.php:45
+msgid "如果有，您更倾向于哪种使用方式？"
+msgstr "Si oui, lequel des moyens d’utilisation suivants que vous préférez?"
+
+#: ui_user.php:46
+msgid "向店家询问他的wifi密码"
+msgstr "Demander le code du wifi au marchand"
+
+#: ui_user.php:47
+msgid "使用登录平台直接进行网络连接"
+msgstr "Accéder à la plateforme Internet pour vous connecter le wi-fi"
+
+#: ui_user.php:48
+msgid "其它（请说明）："
+msgstr "Autres (précisez svp)"
+
+#: ui_user.php:52
+msgid "在使用公共网络的同时，您是否会担心自己的信息安全性？"
+msgstr "Quel est votre degré de confiance sur vos donnés sensibles quand vous utilisez le réseau public?"
+
+#: ui_user.php:53
+msgid "完全不担心"
+msgstr "Total confiance"
+
+#: ui_user.php:54
+msgid "不太担心"
+msgstr "Haut"
+
+#: ui_user.php:55
+msgid "担心"
+msgstr "Moyen"
+
+#: ui_user.php:56
+msgid "有些担心"
+msgstr "Faible"
+
+#: ui_user.php:57
+msgid "非常担心"
+msgstr "Nul (zéro confiance)"
+
+#: ui_user.php:60
+msgid "您在使用公共wifi时信息是否遭遇过侵害？"
+msgstr "Avez-vous rencontré de l’attaque des données en utilisant le wifi public?"
+
+#: ui_user.php:61 ui_user.php:74 ui_user.php:79
+msgid "是"
+msgstr "Oui"
+
+#: ui_user.php:62 ui_user.php:75 ui_user.php:80
+msgid "否"
+msgstr "Non"
+
+#: ui_user.php:63
+msgid "不知道"
+msgstr "Je ne sais pas"
+
+#: ui_user.php:66
+msgid "平均每次使用公共网络的时长"
+msgstr "La durée moyenne de votre chaque utilisation du réseau public"
+
+#: ui_user.php:67
+msgid "30分钟以下"
+msgstr "Moins de 30 min"
+
+#: ui_user.php:68
+msgid "30分钟到1小时"
+msgstr "30 min à 1h"
+
+#: ui_user.php:69
+msgid "超过2小时"
+msgstr "Plus de 2h"
+
+#: ui_user.php:70
+msgid "从到该场所一直到离开"
+msgstr "Depuis votre arrivée de cet endroit jusqu’à la sortie"
+
+#: ui_user.php:73
+msgid "在选择餐厅或娱乐场所的时候是否会考虑有没有wifi？"
+msgstr "Tenez-vous compte de la fourniture du wifi public en choisissant les restaurants ou les lieux de divertissement?"
+
+#: ui_user.php:78
+msgid "商家提供的wifi是否会延长您在该商家停留的时间？"
+msgstr "Est-ce que le service de wifi que le marchand fournit prolongerait la durée de votre séjour chez le marchand?"
+
+#: ui_user.php:84
+msgid "三、请帮助我们完善产品或服务的功能"
+msgstr "III. SVP aidez-nous à perfectionner le fonctionnement du produit et service"
+
+#: ui_user.php:87
+msgid "对不同形式wifi连接广告的接受程度："
+msgstr "Le degré d’acceptation des publicités liées à la connexion de wifi"
+
+#: ui_user.php:91
+msgid "不能接受"
+msgstr "Inacceptable"
+
+#: ui_user.php:92
+msgid "勉强接受"
+msgstr "L’acceptation réticente"
+
+#: ui_user.php:93
+msgid "接受"
+msgstr "Accepter"
+
+#: ui_user.php:94
+msgid "乐于接受"
+msgstr "Accepter avec plaisir"
+
+#: ui_user.php:97
+msgid "登录认证和等待时的网页图片广告"
+msgstr "Web images publicités au cours de votre identification"
+
+#: ui_user.php:104
+msgid "点击广告才能上网"
+msgstr "Connecter le wifi une fois que cliquer sur l’annonce"
+
+#: ui_user.php:111
+msgid "发布微博、朋友圈才能上网"
+msgstr "Connecter le wifi après avoir partagé avec réseaux sociaux"
+#: ui_user.php:118
+msgid "观看完视频广告才能上网"
+msgstr "Connecter le wifi après avoir regardé la vidéo d’annonce"
+
+#: ui_user.php:127
+msgid "对于要观看完广告视频才能上网的广告，您比较容易接受多长的视频广告？"
+msgstr "En ce qui concerne la vidéo d’annonce，combien de temps est dans votre acceptation?"
+
+#: ui_user.php:128
+msgid "10秒以内"
+msgstr "Moins de 10s"
+
+#: ui_user.php:129
+msgid "20秒以内"
+msgstr "Moins de 20s"
+
+#: ui_user.php:130
+msgid "30秒以内"
+msgstr "Moins de 30s"
+
+#: ui_user.php:131
+msgid "30秒以上"
+msgstr "Plus de 30s"
+
+#: ui_user.php:135
+msgid "对于30分钟后要重新登陆验证的wifi，您是否会重新登录？"
+msgstr "Connecterez-vous à nouveau le wifi qui exige une nouvelle session d’authentification pour la re-connexion après 30 min?"
+
+#: ui_user.php:136 ui_user.php:141
+msgid "会"
+msgstr "Oui"
+
+#: ui_user.php:137 ui_user.php:142
+msgid "不会"
+msgstr "Non"
+
+#: ui_user.php:140
+msgid "在wifi跳转页看到感兴趣的产品广告或者商家优惠信息是否会点击了解详情？"
+msgstr "Cliquerez-vous sur l’annonce sur le saut de page (page jump) du wifi pour en savoir plus si l’annonce vous intéresse?"
+
+#: ui_user.php:145
+msgid "能否接受通过手机号或邮箱地址连接wifi后商家给您发送优惠信息？"
+msgstr "Permettez-vous de recevoir des offres et des promotions après avoir connecté le wifi en fournissant votre numéro de téléphone ou adresse mail?"
+
+#: ui_user.php:146
+msgid "能"
+msgstr "Oui"
+
+#: ui_user.php:147
+msgid "不能"
+msgstr "Non"
+
+#: ui_user.php:151
+msgid "四、请告诉我们您对该网络分享平台的一些期待和建议"
+msgstr "IV. N’hésitez-pas à nous donner vos avis et expectations sur cette plateforme de partage de réseau public:"
+
+#: ui_user.php:179
+msgid "五、请填写您的个人信息"
+msgstr "V. SVP ajoutez vos informations personnelles"
+
+#: ui_user.php:180
+msgid "姓名:"
+msgstr "Votre nom:"
+
+#: ui_user.php:181
+msgid "邮箱:"
+msgstr "Votre adresse e-mail:"
+
+#: ui_user.php:182
+msgid "电话:"
+msgstr "Votre numéro de téléphone:"
+
+#: ui_user.php:183
+msgid "地址:"
+msgstr "Votre adresse domicile:"
+
+#: ui_user.php:154
+msgid "提交"
+msgstr "Soumettre"
+
+#: ui_user.php:156
+msgid "感谢您的参与！"
+msgstr "Merci pour votre participation. Nous vous souhaitons une très bonne journée!"

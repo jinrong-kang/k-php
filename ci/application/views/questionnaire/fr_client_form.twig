@@ -1,0 +1,330 @@
+{% extends "questionnaire/form_client.php" %}
+
+{% block Title %}
+	Enquête de AIWIFI
+{% endblock %}
+
+{% block A %}
+	I. S’il vous plaît aidez-nous à vous identifier
+{% endblock %}
+
+{% block A1 %}
+	1.Votre âge:
+{% endblock %}
+
+{% block A11 %}
+	Moins de 15 ans
+{% endblock %}
+
+{% block A12 %}
+	15 ans à 25 ans
+{% endblock %}
+
+{% block A13 %}
+	26 ans à 35 ans
+{% endblock %}
+
+{% block A14 %}
+	36 ans à 45 ans
+{% endblock %}
+
+{% block A15 %}
+	46 ans à 55 ans
+{% endblock %}
+
+{% block A16 %}
+	Plus de 55 ans
+{% endblock %}
+
+{% block A2 %}
+	2.Votre sexe:
+{% endblock %}
+
+{% block A21 %}
+	Masculin
+{% endblock %}
+
+{% block A22 %}
+	Féminin
+{% endblock %}
+
+{% block A3 %}
+	3.Dans quelle branche principale exercez-vous votre métier:
+{% endblock %}
+
+{% block A3all %}
+	<div style="display: inline-block;">
+	&nbsp;<input type="radio" id="A31" name="A3" value="5" required>
+	<label for="A31">Cadre dans le gouvernement</label>&nbsp;<br/>
+	&nbsp;<input type="radio" id="A32" name="A3" value="8">
+	<label for="A32">Hébergement & Exposition</label>&nbsp;<br/>
+	&nbsp;<input type="radio" id="A33" name="A3" value="1">
+	<label for="A33">Santé & soins médicaux</label></div>
+	<div style="display: inline-block;">
+	&nbsp;<input type="radio" id="A34" name="A3" value="2">
+	<label for="A34">Guide & guide d’achate</label>&nbsp;<br/>
+	&nbsp;<input type="radio" id="A35" name="A3" value="3">
+	<label for="A35">Coiffeur cosmétique</label>&nbsp;<br/>
+	&nbsp;<input type="radio" id="A36" name="A3" value="4">
+	<label for="A36">Boutique & magasin</label></div>
+	<div style="display: inline-block;">
+	&nbsp;<input type="radio" id="A37" name="A3" value="6">
+	<label for="A37">Etudiant / lycéen</label>&nbsp;<br/>
+	&nbsp;<input type="radio" id="A38" name="A3" value="7">
+	<label for="A38">Restauration</label>&nbsp;<br/>
+	&nbsp;<input type="radio" id="A39" name="A3" value="9">
+	<label for="A39">Others</label>
+	</div>
+{% endblock %}
+
+{% block A31 %}
+	Santé & soins médicaux
+{% endblock %}
+
+{% block A32 %}
+	Guide & guide d’achat
+{% endblock %}
+
+{% block A33 %}
+	Coiffeur cosmétique
+{% endblock %}
+
+{% block A34 %}
+	Boutique & magasin
+{% endblock %}
+
+{% block A35 %}
+	Cadre dans le gouvernement
+{% endblock %}
+
+{% block A36 %}
+	Etudiant / lycéen
+{% endblock %}
+
+{% block A37 %}
+	Restauration
+{% endblock %}
+
+{% block A38 %}
+	Hébergement & Exposition
+{% endblock %}
+
+{% block A39 %}
+	Autre
+{% endblock %}
+
+{% block B %}
+	II. Ce que vous pensez du réseau public (wifi public)
+{% endblock %}
+
+{% block B1 %}
+	1.Est-ce qu’il y a le service de wifi pour les clients chez vous?
+{% endblock %}
+
+{% block B11 %}
+	Oui
+{% endblock %}
+
+{% block B12 %}
+	Non	
+{% endblock %}
+
+{% block B2 %}
+	2.Si oui, lequel des moyens suivants que vous préférez en fournissant le service du wifi?
+{% endblock %}
+
+{% block B21 %}
+	Mot de passe du wifi ouvert
+{% endblock %}
+
+{% block B22 %}
+	L’accès au réseau au travers de la plateforme internet de connexion
+{% endblock %}
+
+{% block B23 %}
+	Autre (précisez s’il vous plaît)
+{% endblock %}
+
+{% block B3 %}
+	3.Quel est votre degré de confiance sur vos donnés sensibles quant au partage de wifi avec les clients?
+{% endblock %}
+
+{% block B31 %}
+	Total confiance
+{% endblock %}
+
+{% block B32 %}
+	Haut
+{% endblock %}
+
+{% block B33 %}
+	Moyen
+{% endblock %}
+
+{% block B34 %}
+	Faible
+{% endblock %}
+
+{% block B35 %}
+	Nul (zéro confiance)
+{% endblock %}
+
+{% block B4 %}
+	4.Avez-vous rencontré de l’attaque sur vos donnés en fournissant le service du wifi?
+{% endblock %}
+
+{% block B41 %}
+	Oui
+{% endblock %}
+
+{% block B42 %}
+	Non
+{% endblock %}
+
+{% block B43 %}
+	Je ne sais pas
+{% endblock %}
+
+{% block C %}
+	III. S’il vous plaît aidez-nous à perfectionner le fonctionnement du produit et service
+{% endblock %}
+
+{% block C1 %}
+	1.Souhaitez-vous avoir l’emprise sur les usagers à travers la plateforme Internet de connexion?
+{% endblock %}
+
+{% block C11 %}
+	Oui, j'espère
+{% endblock %}
+
+{% block C12 %}
+	Non, j'espère pas
+{% endblock %}
+
+{% block C13 %}
+	Indifférent(e)
+{% endblock %}
+
+{% block C2 %}
+	2.Souhaitez-vous élaborer votre propre service à valeur ajoutée (service étendu)?
+{% endblock %}
+
+{% block C21 %}
+	Oui, j'espère
+{% endblock %}
+
+{% block C22 %}
+	Non, j'espère pas
+{% endblock %}
+
+{% block C23 %}
+	Indifférent(e)
+{% endblock %}
+
+{% block C3 %}
+	3.Souhaitez-vous publier vos annonces dans cette plateforme?
+{% endblock %}
+
+{% block C31 %}
+	Oui, j'espère
+{% endblock %}
+
+{% block C32 %}
+	Non, j'espère pas
+{% endblock %}
+
+{% block C33 %}
+	Indifférent(e)
+{% endblock %}
+
+{% block C4 %}
+	4.Souhaitez-vous envoyer des publicités aux clients qui ont utilisé votre service du wifi publique?
+{% endblock %}
+
+{% block C41 %}
+	Oui, j'espère
+{% endblock %}
+
+{% block C42 %}
+	Non, j'espère pas
+{% endblock %}
+
+{% block C43 %}
+	Indifférent(e)
+{% endblock %}
+
+{% block C5 %}
+	5.Seriez-vous intéressé(e) par une collaboration avec vos partenaires via une telle plateforme Internet?
+{% endblock %}
+
+{% block C51 %}
+	Oui
+{% endblock %}
+
+{% block C52 %}
+	Non
+{% endblock %}
+
+{% block C53 %}
+	Indifférent(e)
+{% endblock %}
+
+{% block C6 %}
+	6.Permettez-vous de donner l’autorité de publicité à vos partenaires?
+{% endblock %}
+
+{% block C61 %}
+	Oui
+{% endblock %}
+
+{% block C62 %}
+	Non
+{% endblock %}
+
+{% block C63 %}
+	Indifférent(e)
+{% endblock %}
+
+{% block C7 %}
+	7.Voulez-vous fournir le service discount aux clients via une telle plateforme Internet?
+{% endblock %}
+
+{% block C71 %}
+	Oui
+{% endblock %}
+
+{% block C72 %}
+	Non
+{% endblock %}
+
+{% block C73 %}
+	Indifférent(e)
+{% endblock %}
+
+{% block D %}
+	IV. N’hésitez-pas à nous donner votre avis et expectation sur cette plateforme de partage de réseau public (Facultatif)
+{% endblock %}
+
+{% block E %}
+	V. S’il vous plaît ajoutez vos informations personnelles (Facultatif)
+{% endblock %}
+
+{% block E1 %}
+	Votre nom
+{% endblock %}
+
+{% block E2 %}
+	Votre adresse e-mail
+{% endblock %}
+
+{% block E3 %}
+	Votre numéro de téléphone
+{% endblock %}
+
+{% block E4 %}
+	Votre adresse domicile
+{% endblock %}
+
+{% block F %}
+Soumettre
+{% endblock %}

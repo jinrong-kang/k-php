@@ -1,0 +1,57 @@
+body {
+	background-image: url(../images/index.jpg);
+	background-size: 100%;			
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	color: white;
+	font: normal 100% sans-serif;
+	font-family: "Arial","YouYuan","黑体","宋体",sans-serif;
+	font-size: 1.5em;
+}
+h1 {
+	text-align: center;
+}
+.form1 {
+	margin-left: 20%; 
+	float: left;
+}
+.form2 {
+	margin-right: 20%;
+	float: right;
+}
+
+.body_size {
+	width: 60%;
+	margin: 0px auto;
+}
+
+[type=submit] {
+	font-size: 1.5em;
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 25%;
+	color: white;
+	padding: 20px 32px;
+	text-align: center;
+	display: inline-block;
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+	/*margin-left: 23.5%;*/
+	text-shadow: 5px 5px 3px rgba(0,0,0,0.6);
+	border:1px solid;
+}
+[type=submit]:hover {
+	background-color: rgba(0,0,0,0.8);
+	box-shadow: 20px 20px 10px rgba(0,0,0,0.5);
+}
+p {
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.5);
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
+	padding: 10px 20px;
+}
+h1 {
+	text-shadow: 5px 5px 3px rgba(0,0,0,0.6);
+}
+header {
+	color: white;
+}

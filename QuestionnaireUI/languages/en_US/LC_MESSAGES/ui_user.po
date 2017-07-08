@@ -1,0 +1,302 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-23 14:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ui_user.php:11
+msgid "AIWIFI 调查问卷"
+msgstr "AIWIFI Questionnaire"
+
+#: ui_user.php:13
+msgid "一、请帮助我们甄别您的所属群体"
+msgstr "I. Please help us identify yourself"
+
+#: ui_user.php:16
+msgid "您的年龄："
+msgstr "Your age:"
+
+#: ui_user.php:17
+msgid "15岁以下"
+msgstr "Under 15 years old"
+
+#: ui_user.php:18
+msgid "15到25岁"
+msgstr "from 15 to 25 years old"
+
+#: ui_user.php:19
+msgid "26到35岁"
+msgstr "from 26 to 35 years old"
+
+#: ui_user.php:20
+msgid "36到45岁"
+msgstr "from 36 to 45 years old"
+
+#: ui_user.php:21
+msgid "46到55岁"
+msgstr "from 46 to 55 years old"
+
+#: ui_user.php:22
+msgid "55岁以上"
+msgstr "Over 55 years old"
+
+#: ui_user.php:25
+msgid "您的性别："
+msgstr "Your sex:"
+
+#: ui_user.php:26
+msgid "男"
+msgstr "Male"
+
+#: ui_user.php:27
+msgid "女"
+msgstr "Female"
+
+#: ui_user.php:30
+msgid "您的身份是："
+msgstr "Your social status:"
+
+#: ui_user.php:31
+msgid "在职员工"
+msgstr "Employee"
+
+#: ui_user.php:32
+msgid "学生"
+msgstr "Student"
+
+#: ui_user.php:33
+msgid "其它"
+msgstr "Other"
+
+#: ui_user.php:37
+msgid "二、请告诉我们您对公共网络的看法"
+msgstr "II. Please tell us your opinions about public wi-fi"
+
+#: ui_user.php:40
+msgid "您是否有使用公共网络的需求？"
+msgstr "Do you have a need for public wi-fi?"
+
+#: ui_user.php:41
+msgid "有"
+msgstr "Yes"
+
+#: ui_user.php:42
+msgid "没有"
+msgstr "No"
+
+#: ui_user.php:45
+msgid "如果有，您更倾向于哪种使用方式？"
+msgstr "If yes, Which of the following ways would you like to connect wi-fi?"
+
+#: ui_user.php:46
+msgid "向店家询问他的wifi密码"
+msgstr "Ask for wifi password directly from store/restaurant/hotel’s owner"
+
+#: ui_user.php:47
+msgid "使用登录平台直接进行网络连接"
+msgstr "Use the login platform to connect wi-fi"
+
+#: ui_user.php:48
+msgid "其它（请说明）："
+msgstr "Other(specify please):"
+
+#: ui_user.php:52
+msgid "在使用公共网络的同时，您是否会担心自己的信息安全性？"
+msgstr "Do you worry about your information security when using public wi-fi?"
+
+#: ui_user.php:53
+msgid "完全不担心"
+msgstr "I don’t worry at all"
+
+#: ui_user.php:54
+msgid "不太担心"
+msgstr "I don’t worry that much"
+
+#: ui_user.php:55
+msgid "担心"
+msgstr "I worry about that"
+
+#: ui_user.php:56
+msgid "有些担心"
+msgstr "I worry a little"
+
+#: ui_user.php:57
+msgid "非常担心"
+msgstr "I do worry a lot"
+
+#: ui_user.php:60
+msgid "您在使用公共wifi时信息是否遭遇过侵害？"
+msgstr "Have you ever encountered any data attacks when using public wi-fi?"
+
+#: ui_user.php:61 ui_user.php:74 ui_user.php:79
+msgid "是"
+msgstr "Affirmative"
+
+#: ui_user.php:62 ui_user.php:75 ui_user.php:80
+msgid "否"
+msgstr "Negative"
+
+#: ui_user.php:63
+msgid "不知道"
+msgstr "I have no idea"
+
+#: ui_user.php:66
+msgid "平均每次使用公共网络的时长"
+msgstr "The average time of your each use of public wi-fi"
+
+#: ui_user.php:67
+msgid "30分钟以下"
+msgstr "Under 30 min"
+
+#: ui_user.php:68
+msgid "30分钟到1小时"
+msgstr "From 30 min to 1h"
+
+#: ui_user.php:69
+msgid "超过2小时"
+msgstr "Over 2h"
+
+#: ui_user.php:70
+msgid "从到该场所一直到离开"
+msgstr "Since your arrival of the place until your departure"
+
+#: ui_user.php:73
+msgid "在选择餐厅或娱乐场所的时候是否会考虑有没有wifi？"
+msgstr "Will you take the provision of wi-fi into account when you choose a restaurant or an entertainment venue?"
+
+#: ui_user.php:78
+msgid "商家提供的wifi是否会延长您在该商家停留的时间？"
+msgstr "Will the provision of wi-fi by the merchant extend your stay at the store/restaurant/hotel…?"
+
+#: ui_user.php:84
+msgid "三、请帮助我们完善产品或服务的功能"
+msgstr "III. Please help us improve the function of our product and service"
+
+#: ui_user.php:87
+msgid "对不同形式wifi连接广告的接受程度："
+msgstr "Your acceptance degree of different forms of public wi-fi connected with ads:"
+
+#: ui_user.php:91
+msgid "不能接受"
+msgstr "I can’t accept"
+
+#: ui_user.php:92
+msgid "勉强接受"
+msgstr "I accept with reluctance"
+
+#: ui_user.php:93
+msgid "接受"
+msgstr "I can accept"
+
+#: ui_user.php:94
+msgid "乐于接受"
+msgstr "Happy to accept"
+
+#: ui_user.php:97
+msgid "登录认证和等待时的网页图片广告"
+msgstr "The web image ads while you login in and wait"
+
+#: ui_user.php:104
+msgid "点击广告才能上网"
+msgstr "click on the ads to connect wi-fi"
+
+#: ui_user.php:111
+msgid "发布微博、朋友圈才能上网"
+msgstr "Share with your social network to connect wi-fi"
+
+#: ui_user.php:118
+msgid "观看完视频广告才能上网"
+msgstr "After watching the video ads to connect wi-fi"
+
+#: ui_user.php:127
+msgid "对于要观看完广告视频才能上网的广告，您比较容易接受多长的视频广告？"
+msgstr "How long could you accept for an video ads you can connect wi-fi once after watching which?"
+
+#: ui_user.php:128
+msgid "10秒以内"
+msgstr "Under 10s"
+
+#: ui_user.php:129
+msgid "20秒以内"
+msgstr "Under 20s"
+
+#: ui_user.php:130
+msgid "30秒以内"
+msgstr "Under 30s"
+
+#: ui_user.php:131
+msgid "30秒以上"
+msgstr "Over 30s"
+
+#: ui_user.php:135
+msgid "对于30分钟后要重新登陆验证的wifi，您是否会重新登录？"
+msgstr "Will you re-login when you are required an another authentification session to connect wi-fi after 30 min?"
+
+#: ui_user.php:136 ui_user.php:141
+msgid "会"
+msgstr "Affirmative"
+
+#: ui_user.php:137 ui_user.php:142
+msgid "不会"
+msgstr "Negative"
+
+#: ui_user.php:140
+msgid "在wifi跳转页看到感兴趣的产品广告或者商家优惠信息是否会点击了解详情？"
+msgstr "Will you click on the ads or merchant offers which you are interested in to know more information?"
+
+#: ui_user.php:145
+msgid "能否接受通过手机号或邮箱地址连接wifi后商家给您发送优惠信息？"
+msgstr "Will you accept receiving offers or ads from the merchant after you having connected wi-fi by your telephone number or email adresse?"
+
+#: ui_user.php:146
+msgid "能"
+msgstr "Yes"
+
+#: ui_user.php:147
+msgid "不能"
+msgstr "No"
+
+#: ui_user.php:151
+msgid "四、请告诉我们您对该网络分享平台的一些期待和建议"
+msgstr "IV. Please give us some of your suggestions and expectations about this network sharing platform"
+
+#: ui_client.php:143
+msgid "五、请填写您的个人信息"
+msgstr "V. Please provide your personal information"
+
+#: ui_client.php:144
+msgid "姓名:"
+msgstr "Your name:"
+
+#: ui_client.php:145
+msgid "邮箱:"
+msgstr "Your email address:"
+
+#: ui_client.php:146
+msgid "电话:"
+msgstr "Your telephone number:"
+
+#: ui_client.php:147
+msgid "地址:"
+msgstr "Your home address:"
+
+#: ui_user.php:154
+msgid "提交"
+msgstr "Submit"
+
+#: ui_user.php:156
+msgid "感谢您的参与！"
+msgstr "Thank you for your participation. Have a nice day!"

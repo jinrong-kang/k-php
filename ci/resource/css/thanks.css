@@ -1,0 +1,59 @@
+body {
+	background-image: url(../images/thanks.jpg);
+	background-size: 100%;			
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	font: normal 100% sans-serif;
+	font-family: "Arial","YouYuan","黑体","宋体",sans-serif;
+}
+.word {
+	color: 	#FFFFE0;
+	text-shadow: 15px 15px 13px rgba(0,0,0,0.8);
+	font-family: "Arial","SThupo","黑体","宋体",sans-serif;
+	/*position:absolute;
+	top: 25%;*/
+	margin-top: 400px auto;
+}
+div {
+	animation:myfirst 5s;
+	-moz-animation:myfirst 5s;
+	-webkit-animation:myfirst 5s;
+	-o-animation:myfirst 5s;
+}
+@-moz-keyframes myfirst /* Firefox */
+{
+	from {font-size: 1.75em;}
+	to {font-size: 2.5em;}
+}
+@keyframes myfirst{
+	from {font-size: 1.75em;}
+	to {font-size: 2.5em;}
+}
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+	from {font-size: 1.75em;}
+	to {font-size: 2.5em;}
+}
+@-o-keyframes myfirst /* Opera */
+{
+	from {font-size: 1.75em;}
+	to {font-size: 2.5em;}
+}
+[type=submit] {
+	position:absolute;
+	top: 70%;
+	font-size: 50px;
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 25%;
+	color: white;
+	padding: 20px 32px;
+	text-align: center;
+	display: inline-block;
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+	text-shadow: 5px 5px 3px rgba(0,0,0,0.6);
+	border:1px solid;
+}
+[type=submit]:hover {
+	background-color: rgba(0,0,0,0.8);
+}

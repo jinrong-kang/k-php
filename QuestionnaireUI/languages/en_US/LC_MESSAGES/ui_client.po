@@ -1,0 +1,263 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-25 10:42+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ui_client.php:32
+msgid "AIWIFI 调查问卷"
+msgstr "AIWIFI Questionnaire"
+
+#: ui_client.php:34
+msgid "一、请帮助我们甄别您的所属群体"
+msgstr "I. Please help us identify yourself"
+
+#: ui_client.php:37
+msgid "您的年龄："
+msgstr "Your age:"
+
+#: ui_client.php:38
+msgid "15岁以下"
+msgstr "Under 15 years old"
+
+#: ui_client.php:39
+msgid "15到25岁"
+msgstr "from 15 to 25 years old"
+
+#: ui_client.php:40
+msgid "26到35岁"
+msgstr "from 26 to 35 years old"
+
+#: ui_client.php:41
+msgid "36到45岁"
+msgstr "from 36 to 45 years old"
+
+#: ui_client.php:42
+msgid "46到55岁"
+msgstr "from 46 to 55 years old"
+
+#: ui_client.php:43
+msgid "55岁以上"
+msgstr "Over 55 years old"
+
+#: ui_client.php:46
+msgid "您的性别："
+msgstr "Your sex:"
+
+#: ui_client.php:47
+msgid "男"
+msgstr "Male"
+
+#: ui_client.php:48
+msgid "女"
+msgstr "Female"
+
+#: ui_client.php:51
+msgid "您所从事的行业是："
+msgstr "Which of the sectors do you involve in:"
+
+#: ui_client.php:52
+msgid "医药卫生"
+msgstr "health & Medicine"
+
+#: ui_client.php:53
+msgid "导游导购"
+msgstr "tour and shopping guiding"
+
+#: ui_client.php:54
+msgid "理发美容"
+msgstr "hairdressing and beauty"
+
+#: ui_client.php:55
+msgid "商场商铺"
+msgstr "malls & stores"
+
+#: ui_client.php:56
+msgid "政府办公"
+msgstr "government office"
+
+#: ui_client.php:57
+msgid "学生"
+msgstr "student"
+
+#: ui_client.php:58
+msgid "酒楼饭馆"
+msgstr "Restaurants"
+
+#: ui_client.php:59
+msgid "酒店会展"
+msgstr "Hotel industry and exhibition"
+
+#: ui_client.php:60
+msgid "其它"
+msgstr "other"
+
+#: ui_client.php:64
+msgid "二、请告诉我们您对公共网络的看法"
+msgstr "II. Please tell us your opinions about public wi-fi"
+
+#: ui_client.php:67
+msgid "您有向顾客提供wifi服务的习惯吗？"
+msgstr "Is there wi-fi service in your store/restaurant/hotel...?"
+
+#: ui_client.php:68
+msgid "有"
+msgstr "Yes"
+
+#: ui_client.php:69
+msgid "没有"
+msgstr "No"
+
+#: ui_client.php:72
+msgid "如果有，您更倾向于哪种使用方式？"
+msgstr "If yes, which of the following ways would you choose to let your customers connect wi-fi?"
+
+#: ui_client.php:73
+msgid "向顾客公开您的wifi密码"
+msgstr "Provide wi-fi password to your customers"
+
+#: ui_client.php:74
+msgid "使用登录平台进行网络连接"
+msgstr "Let your customers use the login platform to connect wi-fi"
+
+#: ui_client.php:75
+msgid "其它（请说明）："
+msgstr "Other(specify please):"
+
+#: ui_client.php:79
+msgid "在给顾客提供网络的同时，您是否会担心自己的信息安全性？"
+msgstr "Do you worry about your information security when using public wi-fi?"
+
+#: ui_client.php:80
+msgid "完全不担心"
+msgstr "I don't worry at all"
+
+#: ui_client.php:81
+msgid "不太担心"
+msgstr "I don't worry that much"
+
+#: ui_client.php:82
+msgid "担心"
+msgstr "I worry about that"
+
+#: ui_client.php:83
+msgid "有些担心"
+msgstr "I worry a little"
+
+#: ui_client.php:84
+msgid "非常担心"
+msgstr "I do worry a lot"
+
+#: ui_client.php:87
+msgid "您在提供公共wifi时信息是否遭遇过侵害？"
+msgstr "Have you ever encountered any data attacks when providing public wi-fi to your customers?"
+
+#: ui_client.php:88
+msgid "是"
+msgstr "Affirmative"
+
+#: ui_client.php:89
+msgid "否"
+msgstr "Negative"
+
+#: ui_client.php:90
+msgid "不知道"
+msgstr "I have no idea"
+
+#: ui_client.php:94
+msgid "三、请帮助我们完善产品或服务的功能"
+msgstr "III. Please help us improve the function of our product and service"
+
+#: ui_client.php:97
+msgid "您希望通过登录平台来控制连接网络的人群吗？"
+msgstr "Do you want to take control of wi-fi users through the login platform?"
+
+#: ui_client.php:98 ui_client.php:104 ui_client.php:110 ui_client.php:116
+msgid "希望"
+msgstr "Yes"
+
+#: ui_client.php:99 ui_client.php:105 ui_client.php:111 ui_client.php:117
+msgid "不希望"
+msgstr "No"
+
+#: ui_client.php:100 ui_client.php:106 ui_client.php:112 ui_client.php:118
+#: ui_client.php:124 ui_client.php:130 ui_client.php:136
+msgid "无所谓"
+msgstr "I don't care"
+
+#: ui_client.php:103
+msgid "您希望制定自己的增值服务吗？"
+msgstr "Do you want to develop your own value-added services?"
+
+#: ui_client.php:109
+msgid "您希望在该平台上发布自己的广告吗？"
+msgstr "Do you want to publish your ads on this platform?"
+
+#: ui_client.php:115
+msgid "您希望给使用过您家共享网络的客户发送广告推送吗？"
+msgstr "Do you want to send ads recommendations to the users who have used your sharing wi-fi?"
+
+#: ui_client.php:121
+msgid "您愿意同其它使用该平台的商户结成合作关系吗？"
+msgstr "Will you be interested in collabrating with other businesses who also use this plaform? "
+
+#: ui_client.php:122 ui_client.php:128 ui_client.php:134
+msgid "愿意"
+msgstr "Yes, I would like to"
+
+#: ui_client.php:123 ui_client.php:129 ui_client.php:135
+msgid "不愿意"
+msgstr "No, I don't want to"
+
+#: ui_client.php:127
+msgid "您愿意对合作商户开放广告权限吗？"
+msgstr "Are you willing to open advertising rights to your partner businesses?"
+
+#: ui_client.php:133
+msgid "您愿意通过平台推送来给顾客提供折扣服务吗？"
+msgstr "Are you willing to recommend discount services to customers through this platform?"
+
+#: ui_client.php:140
+msgid "四、请告诉我们您对该网络分享平台的一些期待和建议"
+msgstr "IV. Please give us some of your suggestions and expectations about this network sharing platform"
+
+#: ui_client.php:143
+msgid "五、请填写您的个人信息"
+msgstr "V. Please provide your personal information"
+
+#: ui_client.php:144
+msgid "姓名:"
+msgstr "Your name:"
+
+#: ui_client.php:145
+msgid "邮箱:"
+msgstr "Your email address:"
+
+#: ui_client.php:146
+msgid "电话:"
+msgstr "Your telephone number:"
+
+#: ui_client.php:147
+msgid "地址:"
+msgstr "Your home address:"
+
+#: ui_client.php:149
+msgid "提交"
+msgstr "Submit"
+
+#: ui_client.php:151
+msgid "感谢您的参与！"
+msgstr "Thank you for your participation. Have a nice day!"

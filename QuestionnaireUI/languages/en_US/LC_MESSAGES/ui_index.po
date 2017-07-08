@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-25 10:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ui_index.php:39
+msgid "用户调查问卷"
+msgstr "Questionnaire for users"
+
+#: ui_index.php:40
+msgid "您好！"
+msgstr "Hello!"
+
+#: ui_index.php:41
+msgid ""
+"我们是AIWIFI项目研发团队的成员，正在进行一项有关公共网络（即公共wifi）应用状"
+"态的调查，想请教您的一些看法，您的回答将作为我们的重要参考。希望您在百忙之中"
+"抽出一点宝贵的时间，协助我们完成以下调查问卷，我们郑重保证您的回答只会作为完"
+"善我们服务的参考信息，不予公开。感谢您的配合！"
+msgstr "We are the research team of the AIWIFI program. We are searching for information about the application status of public network(public wi-fi) and we need your valuable opinions which mean a lot to our research. Thank you for taking a little extra time in your busy schedule to help us complete this investigation. We solemnly guarantee that your answers will only be used as a reference for the improvement of our services. Thank you for your cooperation!"
+
+
+#: ui_index.php:47
+msgid "商家"
+msgstr "Merchant"
+
+msgid "用户"
+msgstr "User"
