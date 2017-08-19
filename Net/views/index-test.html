@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+            <link rel="stylesheet" href="style.css" />
+            <title>{% block title %}{% endblock %} - My Webpage</title>
+        {% endblock %}
+    </head>
+    <body>
+        <form method="post" action="index-test.php">
+        <input type="image" name="language" value="en" src="img/gb.png" alt="Submit" align="right" style="margin:5px;">
+        <input type="image" name="language" value="fr" src="img/fr.png" alt="Submit" align="right" style="margin:5px"> 
+        <input type="image" name="language" value="zh" src="img/cn.png" alt="Submit" align="right" style="margin:5px">
+        </form>
+
+        <div id="content">{% block content %}{% endblock %}</div>
+        <div id="content">{{ block('content') }}</div>
+        <div id="footer">
+            {% block footer %}
+                &copy; Copyright 2017 by <a href="http://localhost">you</a>.
+            {% endblock %}
+        </div>
+    </body>
+</html>

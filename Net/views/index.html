@@ -1,0 +1,881 @@
+ <!-- FlatFy Theme - Andrea Galanti /-->
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <title>AIRESEAU</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'> -->
+	<!-- <link href='http://fonts.useso.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'> -->
+	
+    <!-- Custom CSS-->
+    <link href="css/general.css" rel="stylesheet">
+
+    <!-- swiper.css -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+	
+	 <!-- Owl-Carousel -->
+    <link href="css/custom.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/demo.css" rel="stylesheet">
+	
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	
+	<script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
+	<script src="js/PIE_IE9.js"></script>  
+	<script src="js/PIE_IE678.js"></script>
+	
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+</head>
+
+<body id="home" style=" background-image: url(img/1.jpg); background-repeat: no-repeat; background-size: 100% 105%;">
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+	
+	<!-- FullScreen -->
+	<div style="position: relative;">
+
+    <div class="intro-header" style="position: absolute; left: 0; right: 0;">
+        <div class="col-xs-12 text-center abcen1" style="z-index: 2;">
+        	<!-- <div style="width: 30%; margin-left: 35%; border-style: solid; border-color: #fff; border-radius: 25; border-width: 5px; padding: 3em 2em;background-color: rgba(255,255,255,0.2);"> -->
+            <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">AIRESEAU</h1>
+            <!-- </div> -->
+            <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s"><strong>设计&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp贴心&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp创意&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp稳定&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp专注</strong></h3>
+            <!-- <ul class="list-inline intro-social-buttons">
+                <li><a href="#home" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">ZH</span></a>
+                </li>
+                <li><a href="#home" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">EN</span></a>
+                </li>
+                <li><a href="#home" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">FR</span></a>
+                </li>
+            </ul> -->
+            <br />
+            <form method="post" action="index.php">
+		        <input style="margin: 0 5px;" type="submit" name="language" value="ZH" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s">
+		        <input style="margin: 0 5px;" type="submit" name="language" value="EN" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"> 
+		        <input style="margin: 0 5px;" type="submit" name="language" value="FR" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"> 
+		    </form>
+        </div>    
+        <!-- /.container -->
+        <div class="col-xs-12 text-center abcen wow fadeIn" style="z-index: 1;">
+            <div class="button_down"> 
+                <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+            </div>
+        </div>
+    </div>
+
+    <div style="position: absolute;">
+    <script src="js/three.min.js"></script> 
+    <script>
+
+        var SEPARATION = 100, AMOUNTX = 50, AMOUNTY = 50;
+
+        var container;
+        var camera, scene, renderer;
+
+        var particles, particle, count = 0;
+
+        var mouseX = 200, mouseY = -350;
+
+        var windowHalfX = window.innerWidth / 2;
+        var windowHalfY = window.innerHeight / 2;
+        // var windowHalfX = 350;
+        // var windowHalfY = 500;
+
+        init();
+        animate();
+
+        function init() {
+
+            container = document.createElement( 'div' );
+            document.body.appendChild( container );
+
+            camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 10000 );
+            camera.position.z = 1000;
+
+            scene = new THREE.Scene();
+
+            particles = new Array();
+
+            var PI2 = Math.PI * 2;
+            var material = new THREE.ParticleCanvasMaterial( {
+
+                color: 0xffffff,
+                program: function ( context ) {
+
+                    context.beginPath();
+                    context.arc( 0, 0, 1, 0, PI2, true );
+                    context.fill();
+
+                }
+
+            } );
+
+            var i = 0;
+
+            for ( var ix = 0; ix < AMOUNTX; ix ++ ) {
+
+                for ( var iy = 0; iy < AMOUNTY; iy ++ ) {
+
+                    particle = particles[ i ++ ] = new THREE.Particle( material );
+                    particle.position.x = ix * SEPARATION - ( ( AMOUNTX * SEPARATION ) / 2 );
+                    particle.position.z = iy * SEPARATION - ( ( AMOUNTY * SEPARATION ) / 2 );
+                    scene.add( particle );
+
+                }
+
+            }
+
+            renderer = new THREE.CanvasRenderer();
+            renderer.setSize( window.innerWidth, window.innerHeight );
+            container.appendChild( renderer.domElement );
+
+            document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+            document.addEventListener( 'touchstart', onDocumentTouchStart, false );
+            document.addEventListener( 'touchmove', onDocumentTouchMove, false );
+
+        //
+
+        window.addEventListener( 'resize', onWindowResize, false );
+
+    }
+
+    function onWindowResize() {
+
+        windowHalfX = window.innerWidth / 2;
+        windowHalfY = window.innerHeight / 2;
+
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+
+        renderer.setSize( window.innerWidth, window.innerHeight );
+
+    }
+
+    //
+
+    function onDocumentMouseMove( event ) {
+
+        mouseX = event.clientX - windowHalfX;
+        mouseY = event.clientY - windowHalfY;
+
+    }
+
+    function onDocumentTouchStart( event ) {
+
+        if ( event.touches.length === 1 ) {
+
+            event.preventDefault();
+
+            mouseX = event.touches[ 0 ].pageX - windowHalfX;
+            mouseY = event.touches[ 0 ].pageY - windowHalfY;
+
+        }
+
+    }
+
+    function onDocumentTouchMove( event ) {
+
+        if ( event.touches.length === 1 ) {
+
+            event.preventDefault();
+
+            mouseX = event.touches[ 0 ].pageX - windowHalfX;
+            mouseY = event.touches[ 0 ].pageY - windowHalfY;
+
+        }
+
+    }
+
+    //
+
+    function animate() {
+
+        requestAnimationFrame( animate );
+
+        render();
+
+
+    }
+
+    function render() {
+
+        camera.position.x += ( mouseX - camera.position.x ) * .05;
+        camera.position.y += ( - mouseY - camera.position.y ) * .05;
+        camera.lookAt( scene.position );
+
+        var i = 0;
+
+        for ( var ix = 0; ix < AMOUNTX; ix ++ ) {
+
+            for ( var iy = 0; iy < AMOUNTY; iy ++ ) {
+
+                particle = particles[ i++ ];
+                particle.position.y = ( Math.sin( ( ix + count ) * 0.3 ) * 50 ) + ( Math.sin( ( iy + count ) * 0.5 ) * 50 );
+                particle.scale.x = particle.scale.y = ( Math.sin( ( ix + count ) * 0.3 ) + 1 ) * 2 + ( Math.sin( ( iy + count ) * 0.5 ) + 1 ) * 2;
+
+            }
+
+        }
+
+        renderer.render( scene, camera );
+
+        count += 0.1;
+
+    }
+
+	</script>
+	</div>
+	</div>
+
+	<!-- NavBar-->
+	<nav class="navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home">AIRESEAU</a>
+				<!-- <a class="navbar-brand" href="#home"><img src="img/logo.png" style="width: 20%;float: left;"></a> -->
+			</div>
+
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					
+					<li class="menuItem"><a href="#whatis">{{ block('menu_1') }}</a></li>
+					<li class="menuItem"><a href="#useit">{{ block('menu_2') }}</a></li>
+					<li class="menuItem"><a href="#screen">{{ block('menu_3') }}</a></li>
+					<li class="menuItem"><a href="#credits">{{ block('menu_4') }}</a></li>
+					<li class="menuItem"><a href="#contact">{{ block('menu_5') }}</a></li>
+				</ul>
+			</div>
+		   
+		</div>
+	</nav> 
+	<!-- <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >手机网站模板</a></div> -->
+	<!-- What is -->
+	<div id="whatis" class="content-section-b" style="border-top: 0">
+		<div class="container">
+
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>{{ block('whatis_title') }}</h2>
+				<p class="lead" style="margin-top:0">AIRESEAU</p>
+				
+			</div>
+			
+			<div class="row">
+				<div class=" pull-left wow fadeInLeftBig" data-animation-delay="400" >
+				<div class="pull-right">
+                  <img class="rotate" src="img/icon/tweet.svg" alt="Generic placeholder image" style="margin:0 10px;">
+				  <h3 style="text-align: center;">{{ block('whatis_title_1') }}</h3></div>
+				  <p class="lead">{{ block('whatis_info_1') }}</p>
+                </div>
+			</div><!-- /.row -->
+				
+			<div class="row tworow">
+			
+				<div class="pull-right wow fadeInRightBig" data-animation-delay="400">
+				<div class="pull-left">
+                  <img class="rotate" src="img/icon/laptop.svg" alt="Generic placeholder image" style="margin:0 20px;">
+				  <h3 style="text-align: center;">{{ block('whatis_title_2') }}</h3></div>
+				  <p class="lead">{{ block('whatis_info_2') }}</p>
+                </div>
+				
+			</div><!-- /.row -->
+		</div>
+	</div>
+	
+	<!-- Use it -->
+	
+
+    <div id ="useit" class="content-section-a">
+
+        <div class="container">
+			
+            <div class="row">
+			
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive " src="img/doge.png" alt="">
+                </div>
+				
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">{{ block('useit_title_1') }}</h3>
+					<div class="sub-title lead3">{{ block('useit_info_11') }}</div>
+                    <p class="lead">
+						{{ block('useit_info_12') }}
+					</p>
+
+					 <p><a class="btn btn-embossed btn-primary" href="#screen" role="button">{{ block('useit_button_1') }}</a> 
+					 <a class="btn btn-embossed btn-info" href="#" role="button">{{ block('useit_button_2') }}</a></p>
+				</div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <div class="content-section-b"> 
+		
+		<div class="container">
+            <div class="row">
+				<div class="col-sm-6 pull-left wow fadeInLeftBig">
+                    <img class="img-responsive " src="img/ipad.png" alt="">
+                </div>
+
+                <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">{{ block('useit_title_2') }}</h3>
+					<div class="sub-title lead3">{{ block('useit_info_21') }}</div>
+                    <p class="lead">
+						{{ block('useit_info_22') }}
+					</p>
+
+					 <p><a class="btn btn-embossed btn-primary" href="#screen" role="button">{{ block('useit_button_1') }}</a> 
+					 <a class="btn btn-embossed btn-info" href="#" role="button">{{ block('useit_button_2') }}</a></p>
+				</div>  			
+			</div>
+        </div>
+    </div>
+
+	<div class="content-section-a">
+
+        <div class="container">
+
+             <div class="row">
+			 	
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <!-- <img class="img-responsive " src="img/iphone_b.png" alt=""> -->
+                    <div class="module01">
+	                <div class="swiper-container">
+	                <div class="swiper-wrapper">
+	                	<div class="swiper-slide" style="width: 100%;"><img class="img-responsive " src="img/iphone_b.png" alt="" style="margin: 1.5em 0;"></div>
+	                	<div class="swiper-slide" style="width: 100%;"><img class="img-responsive " src="img/iphone_b.png" alt="" style="margin: 1.5em 0;"></div>
+	                	<div class="swiper-slide" style="width: 100%;"><img class="img-responsive " src="img/iphone_b.png" alt="" style="margin: 1.5em 0;"></div>
+	                </div>
+
+	                <div class="swiper-pagination"></div>
+
+			        <!-- Add Arrows -->
+			        <div class="swiper-button-prev" style="left: 0;"></div>
+			        <div class="swiper-button-next" style="right: 0;"></div>
+			        </div>
+			        </div>
+        		</div>
+			 
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">{{ block('useit_title_3') }}</h3>
+                    <div class="sub-title lead3">{{ block('useit_info_31') }}</div>
+                    <p class="lead">{{ block('useit_info_32') }}
+					</p>
+					
+					<!-- <ul class="descp lead2">
+						<li><i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform</li>
+						<li><i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for future</li>
+						<li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>
+					</ul> -->
+				</div>				           
+            </div>
+        </div>
+
+    </div>
+
+	<!-- Screenshot -->
+	<div id="screen" class="content-section-b">
+        <div class="container">
+          <div class="row" >
+			 <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
+				<h2>{{ block('screenshot_title') }}</h2>
+				<p class="lead" style="margin-top:0">AIRESEAU</p>
+			 </div>
+        </div>
+	</div>
+	
+	<div  class="content-section-c" style="background-image: url(img/2.jpg);background-size: 100% 100%;">
+		<div class="container" style="width:90%;">
+			<span style="width: 50%; float: left;">
+			    <div class="module02">
+			    <div class="swiper-container">
+			    	<div class="swiper-wrapper">
+			    		<div class="swiper-slide">
+			    			<div id="wrap">
+			    				<ul>
+			    					<li>
+			    						<a href="" class="a1">
+			    							<img src="img/doge.png">
+			    							<div class ="divA">
+			    								<p class="p1">{{ block('screenshot_title_0') }}</p>
+			    								<p class="p2">{{ block('screenshot_info_11') }}</p>
+			    								<p class="p3"><span>800</span>{{ block('screenshot_price') }}</p>
+			    							</div>
+			    						</a>
+			    						<a href="" class = "a2">
+			    							<p class="p4">{{ block('screenshot_title_1') }}</p>
+			    							<p class="p5">{{ block('screenshot_info_14') }}
+			    							</p>
+			    							<p class="p6"><span>800</span>{{ block('screenshot_price') }}</p>
+			    							<p class="p7">{{ block('screenshot_more') }}</p>
+			    						</a>
+			    					</li>
+			    				</ul>
+			    			</div>
+			    		</div>
+			    		<div class="swiper-slide">
+			    			<div id="wrap">
+			    				<ul>
+			    					<li>
+			    						<a href="" class="a1">
+			    							<img src="img/doge.png">
+			    							<div class ="divA">
+			    								<p class="p1">{{ block('screenshot_title_0') }}</p>
+			    								<p class="p2">{{ block('screenshot_info_12') }}</p>
+			    								<p class="p3"><span>800</span>{{ block('screenshot_price') }}</p>
+			    							</div>
+			    						</a>
+			    						<a href="" class = "a2">
+			    							<p class="p4">静态网页</p>
+			    							<p class="p5">每个页面内容都需要保存在服务器上，</br>属于实实在在的文件内容，</br>所以页面内容相对稳定，</br>也更容易被搜索引擎检索</br></br>
+			    											具有GIF格式的动画、FLASH、</br>翻滚字母等视觉上的动态效果</br></br>
+			    											不具备搜索等功能</br></p>
+			    							<p class="p6"><span>800</span>{{ block('screenshot_price') }}</p>
+			    							<p class="p7">查看详情></p>
+			    						</a>
+			    					</li>
+			    				</ul>
+			    			</div>
+			    		</div>
+			    		<div class="swiper-slide">
+			    			<div id="wrap">
+			    				<ul>
+			    					<li>
+			    						<a href="" class="a1">
+			    							<img src="img/doge.png">
+			    							<div class ="divA">
+			    								<p class="p1">{{ block('screenshot_title_0') }}</p>
+			    								<p class="p2">{{ block('screenshot_info_13') }}</p>
+			    								<p class="p3"><span>800</span>{{ block('screenshot_price') }}</p>
+			    							</div>
+			    						</a>
+			    						<a href="" class = "a2">
+			    							<p class="p4">{{ block('screenshot_title_1') }}</p>
+			    							<p class="p5">{{ block('screenshot_info_14') }}</p>
+			    							<p class="p6"><span>800</span>{{ block('screenshot_price') }}</p>
+			    							<p class="p7">{{ block('screenshot_more') }}</p>
+			    						</a>
+			    					</li>
+			    				</ul>
+			    			</div>
+			    		</div>
+			    	</div>
+			    	<!-- Add Pagination -->
+			    	<div class="swiper-pagination"></div>
+			    	<!-- Add Arrows -->
+			    	<div class="swiper-button-next"></div>
+			    	<div class="swiper-button-prev"></div>
+			    </div>
+			    </div>
+			</span>
+			<span style="width: 50%; float: right;">
+			 <div class="module02">
+			    <div class="swiper-container">
+			    	<div class="swiper-wrapper">
+			    		<div class="swiper-slide">
+			    			<div id="wrap">
+								<ul>
+									<li>
+									<a href="" class="a1">
+										<img src="img/doge.png"/>
+										<div class ="divA">
+											<p class="p1">{{ block('screenshot_title_0') }}</p>
+											<p class="p2">{{ block('screenshot_info_21') }}</p>
+											<p class="p3"><span>1300</span>{{ block('screenshot_price') }}</p>
+										</div>
+									</a>
+									<a href="" class = "a2">
+										<p class="p4">{{ block('screenshot_title_2') }}</p>
+										<p class="p5">{{ block('screenshot_info_24') }}</p>
+										<p class="p6"><span>1300</span>{{ block('screenshot_price') }}</p>
+										<p class="p7">{{ block('screenshot_more') }}</p>
+									</a>
+									</li>
+								</ul>
+							</div>
+			    		</div>
+			    		<div class="swiper-slide">
+			    			<div id="wrap">
+								<ul>
+									<li>
+									<a href="" class="a1">
+										<img src="img/doge.png"/>
+										<div class ="divA">
+											<p class="p1">{{ block('screenshot_title_0') }}</p>
+											<p class="p2">{{ block('screenshot_info_22') }}</p>
+											<p class="p3"><span>1300</span>{{ block('screenshot_price') }}</p>
+										</div>
+									</a>
+									<a href="" class = "a2">
+										<p class="p4">{{ block('screenshot_title_2') }}</p>
+										<p class="p5">{{ block('screenshot_info_24') }}</p>
+										<p class="p6"><span>1300</span>{{ block('screenshot_price') }}</p>
+										<p class="p7">{{ block('screenshot_more') }}</p>
+									</a>
+									</li>
+								</ul>
+							</div>
+			    		</div>
+			    		<div class="swiper-slide">
+			    			<div id="wrap">
+			    				<ul>
+			    					<li>
+			    						<a href="" class="a1">
+			    							<img src="img/doge.png"/>
+			    							<div class ="divA">
+			    								<p class="p1">{{ block('screenshot_title_0') }}</p>
+			    								<p class="p2">{{ block('screenshot_info_23') }}</p>
+			    								<p class="p3"><span>1300</span>{{ block('screenshot_price') }}</p>
+			    							</div>
+			    						</a>
+			    						<a href="" class = "a2">
+			    							<p class="p4">{{ block('screenshot_title_2') }}</p>
+			    							<p class="p5">{{ block('screenshot_info_24') }}</p>
+			    							<p class="p6"><span>1300</span>{{ block('screenshot_price') }}</p>
+			    							<p class="p7">{{ block('screenshot_more') }}</p>
+			    						</a>
+			    					</li>
+			    				</ul>
+			    			</div>
+			    		</div>
+			    	</div>
+			    	<!-- Add Pagination -->
+			    	<div class="swiper-pagination"></div>
+			    	<!-- Add Arrows -->
+			    	<div class="swiper-button-next"></div>
+			    	<div class="swiper-button-prev"></div>
+			    </div>
+			    </div>
+			</span>
+			<!-- <img src="img/doge.png" style="width:40%;float: left;">
+			<img src="img/doge.png" style="width:40%;float: right;">  -->
+
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Credits -->
+	<div id="credits" class="content-section-a">
+		<div class="container">
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>{{ block('credits_title') }}</h2>
+				<p class="lead" style="margin-top:0">AIRESEAU</p>
+			</div>
+			<div id="pricing_wrapper" class="shadow cards_wrap no-border clearfix">
+                <li class="cards" id="price_1">
+                    <ul class="pricing_table">
+                        <li class="head" style="background-color: #333;">{{ block('credits_title_1') }}</li>
+                        <li class="price" style="background-color: #333; font-size: 2em; font-weight: bold;">{{ block('credits_title_10') }}</li>
+                        <li class="price" style="background-color: #333;font-size: 4em; font-weight: bold;">$19.99</li>
+                        <li class="feat"></li>
+                        <!-- <li class="feat">
+                            <span>类型</span>
+                            <strong>静态</strong>网页
+                        </li> -->
+                        <li class="feat">
+                            {{ block('credits_info_11') }}
+                        </li>
+                        <li class="feat">
+                            {{ block('credits_info_12') }}
+                        </li>
+                        <li class="feat">
+                            {{ block('credits_info_13') }}
+                        </li>
+                        <!-- <li><a type="button" class="butn">Free Trial</a></li> -->
+                    </ul>
+                </li>
+                <!-- <li class="cards" id="price_2">
+                    <ul class="pricing_table">
+                        <li class="head">Base +</li>
+                        <li class="price"><img src="images/price2.png"/></li>
+                        <li class="feat"></li>
+                        <li class="feat">
+                            <span>type</span>
+                            <strong>Two</strong> Domains
+                        </li>
+                        <li class="feat">
+                            <span>space</span>
+                            <strong>40GB</strong> disk space
+                        </li>
+                        <li class="feat">
+                            <span>ssl</span>
+                            Shared <strong>SSL</strong>
+                        </li>
+                        <li class="feat">
+                            <span>space</span>
+                            <strong>Unlimited</strong> bandwidth
+                        </li>
+                        <li><a type="button" class="butn">Free Trial</a></li>
+                    </ul>
+                </li> -->
+                <li class="cards" id="price_3">
+                    <ul class="pricing_table">
+                        <li class="head focus" style="background-color: #116590;">{{ block('credits_title_2') }}</li>
+                        <li class="price focus" style="background-color: #116590;font-size: 2em; font-weight: bold;">{{ block('credits_title_10') }}</li>
+                        <li class="price focus" style="background-color: #116590; font-size: 4em; font-weight: bold;">$49.99</li>
+                        <li class="feat"></li>
+                        <!-- <li class="feat">
+                            <span>类型</span>
+                            <strong>贴心定制</strong>
+                        </li> -->
+                        <li class="feat">
+                            {{ block('credits_info_21') }}
+                        </li>
+                        <li class="feat">
+							{{ block('credits_info_22') }}
+                        </li>
+                        <li class="feat">
+                            <span>{{ block('credits_info_33') }}</span>
+                            <a class="btn btn-embossed btn-info" href="#contact" role="button"><strong>{{ block('credits_info_24') }}</strong></a>
+                        </li>
+                        <!-- <li><a type="button" class="butn">Free Trial</a></li> -->
+                    </ul>
+                </li>
+                <li class="cards" id="price_4">
+                    <ul class="pricing_table">
+                        <li class="head" style="background-color: #333;">{{ block('credits_title_3') }}</li>
+                        <li class="price" style="background-color: #333;font-size: 2em; font-weight: bold;">{{ block('credits_title_10') }}</li>
+                        <li class="price" style="background-color: #333; font-size: 4em; font-weight: bold;">$79.99</li>
+                        <li class="feat"></li>
+                        <!-- <li class="feat">
+                            <span>类型</span>
+                            <strong>动态</strong>网页
+                        </li> -->
+                        <li class="feat">
+							{{ block('credits_info_31') }}
+                        </li>
+                        <li class="feat">
+							{{ block('credits_info_32') }}
+                        </li>
+                        <li class="feat">
+                            <span>{{ block('credits_info_33') }}</span>
+                            <div style="margin: 4% 0;">
+                            <strong>{{ block('credits_info_34') }}</strong></br></div>
+                        </li>
+                       <!-- <li><a type="button" class="butn">Free Trial</a></li> -->
+                    </ul>
+                </li>
+            </div>
+            <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<p class="lead" style="margin-bottom:0">{{ block('credits_notice') }}</p>
+			</div>
+            <a class="btn btn-embossed btn-info" href="img/logo.png" role="button" style="width: 22%; margin:1.5em 39%; font-size: 1.5em; font-weight: bold;" download="_details_">{{ block('credits_notice_btn') }}</a>
+		</div>
+	</div>
+	
+	<!-- Contact -->
+	<div id="contact" class="content-section-a">
+		<div class="container">
+			<div class="row">
+			
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>{{ block('contact_title') }}</h2>
+				<p class="lead" style="margin-top:0">AIRESEAU</p>
+			</div>
+			
+			<form role="form" action="" method="post" >
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="InputName">{{ block('contact_name') }}</label>
+						<div class="input-group">
+							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for="InputEmail">{{ block('contact_email') }}</label>
+						<div class="input-group">
+							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for="InputMessage">{{ block('contact_message') }}</label>
+						<div class="input-group">
+							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+
+					<input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
+				</div>
+			</form>
+			
+			<hr class="featurette-divider hidden-lg">
+				<div class="col-md-5 col-md-push-1 address">
+					<address>
+					<h3>{{ block('contact_address') }}</h3>
+					<p class="lead">
+					12 VILLA DE LOURCINE<br>
+					75014 , PARIS<br>
+					FRANCE<br></p>
+					<h3>{{ block('contact_phone') }}</h3>
+					<p class="lead">+33 06 51 48 97 47</p>
+					</address>
+
+					<h3>{{ block('contact_share') }}</h3>
+					<li class="social"> 
+					<!-- <a href="#"><i class="fa fa-facebook-square fa-size"> </i></a>
+					<a href="#"><i class="fa  fa-twitter-square fa-size"> </i> </a> 
+					<a href="#"><i class="fa fa-google-plus-square fa-size"> </i></a>
+					<a href="#"><i class="fa fa-flickr fa-size"> </i> </a> -->
+					<a href="#"><img class="image" src="img/icon/facebook.png" style="width: 11%;"></a>&nbsp
+					<a href="#"><img class="image" src="img/icon/twiter.png" style="width: 11%;"></a>&nbsp
+					<a href="#"><img class="image" src="img/icon/google+.png" style="width: 11%;"></a>&nbsp
+					<a href="#"><img class="image" src="img/icon/in.png" style="width: 11%;"></a>&nbsp
+					<a href="#"><img class="image" src="img/icon/more.png" style="width: 11%;"></a>&nbsp
+					</li>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h3 class="footer-title">Follow Me!</h3>
+            <p>Vuoi ricevere news su altri template?<br/>
+              Visita Andrea Galanti.it e vedrai tutte le news riguardanti nuovi Theme!<br/>
+              Go to: <a  href="#" target="_blank">andreagalanti.it</a>
+            </p>
+			
+			<!-- LICENSE -->
+			<a rel="cc:attributionURL" href="#"
+		   property="dc:title">Flatfy Theme </a> by
+		   <a rel="dc:creator" href="#"
+		   property="cc:attributionName">Andrea Galanti</a>
+		   is licensed to the public under 
+		   <BR>the <a rel="license"
+		   href="#">Creative
+		   Commons Attribution 3.0 License - NOT COMMERCIAL</a>.
+		   
+	   
+          </div> <!-- /col-xs-7 -->
+
+          <div class="col-md-5">
+            <div class="footer-banner">
+              <h3 class="footer-title">Flatfy Theme</h3>
+              <ul>
+                <li>12 Column Grid Bootstrap</li>
+                <li>Form Contact</li>
+                <li>Drag Gallery</li>
+                <li>Full Responsive</li>
+                <li>Lorem Ipsum</li>
+              </ul>
+             <!--  More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+	<!-- StikyMenu -->
+	<script src="js/stickUp.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		$(document).ready( function() {
+		  $('.navbar-default').stickUp();
+		  
+		});
+	  });
+	
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="js/jquery.corner.js"></script> 
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="js/classie.js"></script>
+	<script src="js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+    <script type="text/javascript" src="js/slimbox2.js"></script> 
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript">
+		$('li').mouseenter(function(){
+			$(this).find('.divA').stop().animate({bottom:'-66px'});
+			$(this).find('.a2').css({left:'0'})
+			$(this).children('.a2').find('.p4').css({left:'0'})
+			$(this).children('.a2').find('.p5').css({left:'0'})
+			$(this).children('.a2').find('.p6').css({transform:'scale(1)'})
+			$(this).children('.a2').find('.p7').css({bottom:'25px'})
+		})
+		$('li').mouseleave(function(){
+			$(this).find('.divA').stop().animate({bottom:'0px'});
+			$(this).find('.a2').css({left:-$(this).width()})
+			$(this).children('.a2').find('.p4').css({left:-$(this).width()})
+			$(this).children('.a2').find('.p5').css({left:-$(this).width()})
+			$(this).children('.a2').find('.p6').css({transform:'scale(1.3)'})
+			$(this).children('.a2').find('.p7').css({bottom:'-50px'})
+		})
+	</script>
+	<script src="js/swiper.min.js"></script>
+	<script>
+    var swiper = new Swiper('.module01 .swiper-container', {
+        pagination: '.swiper-pagination',
+        effect: 'flip',
+        grabCursor: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev'
+    });
+    </script>
+    <script>
+    var swiper = new Swiper('.module02 .swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 6000,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
+</body>
+
+</html>

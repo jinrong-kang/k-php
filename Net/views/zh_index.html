@@ -1,0 +1,17 @@
+{% extends "index-test.html" %}
+
+{% block title %}zh{% endblock %}
+
+{% block head %}
+    {{ parent() }}
+    <style type="text/css">
+        .important { color: green; }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <h1>Chinese</h1>
+    <p class="important">
+        Welcome to my chinese page.
+    </p>
+{% endblock %}
